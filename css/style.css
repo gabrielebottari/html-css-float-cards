@@ -1,8 +1,40 @@
 /* 
     RESET
 */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* 
+    GENERAL
+*/
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.pink-color {
+    color: #E53170;
+}
+
+.black-color {
+    background-color: #0F0E17;
+}
+
+/* 
+    MAIN
+*/
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
