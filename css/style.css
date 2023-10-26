@@ -17,7 +17,7 @@ html {
 */
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -37,4 +37,44 @@ html {
     content: "";
     display: table;
     clear: both;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h1 +  p {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.columns > * {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.columns > * > img {
+    height: 100px;
+}
+
+.cards > * {
+    float: left;
+}
+
+.card-description {
+    height: 100px;
+    width: 250px;
+    color: white;
+}
+
+.card-description * {
+    line-height: calc(80px / 3);
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #48adcc;
 }
