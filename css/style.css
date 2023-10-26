@@ -48,8 +48,9 @@ h1 +  p {
 
 .columns > * {
     float: left;
-    width: calc((100% / 3) -40px);
-    margin: 20px;
+    width: calc((100% / 3) -10px);
+    margin-bottom: 40px;
+
 }
 
 .columns > * > img {
@@ -61,17 +62,22 @@ h1 +  p {
     float: left;
 }
 
+.cards {
+    width: calc((100% / 3) -10px)
+}
+
 .card-description {
     height: 100px;
-    width: 250px;
+    width: 270px;
     background-color: #0F0E17;
     color: white;
 }
 
 .card-text {
-    padding: 10px 0px 15px 15px;
+    padding: 10px 50px 15px 15px;
     vertical-align: middle;
     line-height: 25px;
+
 }
 
 a {
@@ -79,3 +85,13 @@ a {
     color: #48adcc;
 }
 
+.cards:nth-child(2) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.cards:nth-child(5) {
+    margin-left: 30px;
+    margin-right: 30px;
+}
